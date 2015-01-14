@@ -5,3 +5,4 @@ default["consul"]["enable_syslog"] = true
 default["consul"]["log_level"] = "debug"
 default["consul"]["bind_interface"] = "eth1"
 default["consul"]["advertise_interface"] = "eth1"
+default["consul"]["node_name"] = "microservice-client"
